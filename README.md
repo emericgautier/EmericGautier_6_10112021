@@ -1,6 +1,8 @@
 # PIQUANTE • BACK-END
 
 Une application d'avis gastronomique.
+
+![piquante](https://user-images.githubusercontent.com/78208136/143690732-f0306003-aae3-4ad4-a5bb-54856d55b138.png)
 ## Caractéristiques
 • Serveur : NodeJS  
 • Framework : ExpressJS  
