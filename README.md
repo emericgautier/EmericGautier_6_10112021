@@ -8,6 +8,12 @@ Une application d'avis gastronomique.
 • Framework : ExpressJS  
 • Base de données : MongoDB  
 
+## Commencer
+
+Tout d'abord, créez un fichier .env localement. Vous pouvez dupliquer .env.example et nommer la nouvelle copie .env. Adaptez les variables à vos besoins.
+
+Veuillez noter que vous devez remplir la variable d'environnement DB_USER et DB_PASS avec une clé privée.
+
 ## Lancer localement le front-end
 
 Cloner le projet dans un repertoire frontend
@@ -40,7 +46,7 @@ Démarrer
   npm start
 ```
 
-Rendez-vous sur http://localhost:4200/
+Rendez-vous sur http://localhost:8080/
 
 ## Lancer localement le back-end
 
