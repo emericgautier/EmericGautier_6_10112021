@@ -14,8 +14,6 @@ const app = express();
 app.use(helmet());
 
 // connexion à BDD MongoDB via mongoose
-// mongoose.connect('mongodb+srv://Emeric:ygNtmCA9z2qiTRIG@cluster0.gp1ym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-// mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.vtyck.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.gp1ym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
 { useNewUrlParser: true,
   useUnifiedTopology: true })
