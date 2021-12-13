@@ -1,7 +1,7 @@
 /* CONTROLLERS SAUCE || Logique métier pour sauce */
 
 // importations
-const Sauce = require('../models/Sauce'); // importe le shéma de Sauce
+const Sauce = require('../models/sauce'); // importe le shéma de Sauce
 const fs = require('fs'); // permet de modifier le système de fichiers
 
 

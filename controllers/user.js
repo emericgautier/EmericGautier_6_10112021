@@ -1,7 +1,7 @@
 /* CONTROLLERS UTILISATEURS || Logique métier pour user */
 
 // importations
-const User =  require('../models/User'); // shéma de User
+const User =  require('../models/user'); // shéma de User
 const bcrypt = require ('bcrypt'); // package cryptage de mot de passe
 const jwt = require('jsonwebtoken'); // package pour créer et vérifier les tokens d'authentification 
 
