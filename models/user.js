@@ -3,10 +3,11 @@
 // importations
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
+const { isEmail } = require('validator');
 
 // création du schéma de données d'un user 
 const userSchema = mongoose.Schema({
-  email: { type: String, required: true, unique: true }, 
+  email: { type: String, required: true, unique: true, validate: [isEmail, 'Please enter a valid email'] }, 
   password: { type: String, required: true }
 });
 
